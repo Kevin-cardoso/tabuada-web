@@ -1,0 +1,95 @@
+body{
+    font-family: arial;
+    background-color: #00008b;
+    color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    text-align: center;
+    width: 380px;
+    height: 40px;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+    color: #00bfff;
+    background-color: #00008b;
+}
+#usutabu{
+    margin-top: 10px;
+}
+#tabucomp{
+    margin-top: 5px;
+}
+#usutabu:hover{
+    color: #00008b;
+    background-color: #00bfff;
+}
+#tabucomp:hover{
+    color: #00008b;
+    background-color: #00bfff;
+}
+#qualnum{
+    width: 250px;
+    font-size: 20px;
+    height: 40px;
+    margin-left: 70px;
+    outline: 0;
+    border:none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    margin-top: 30px;
+    align-items: center;
+    background-color: #836fff;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+}
+.questao{
+    text-align: center;
+    font-size: 16px;
+}
+.titulo{
+    text-align: center;
+}
+.tabuada{
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        align-items: center;
+    }
+    button{
+        width: 280px;
+        height: 40px;
+    }
+    #qualnum{
+        width: 260px;
+        margin-left: 20px;
+    }
+    .questao{
+        font-size: 17px;
+    }
+    .container{
+        margin-right: 5px;
+        margin-top: 40px;
+        padding: 5px;
+        width: 300px;
+    }
+    .tabuada{
+        font-size: 15px;
+    }
+}
